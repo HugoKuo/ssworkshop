@@ -1,0 +1,16 @@
+1. Receive workshop request
+2. Spin up controller-VM on RAX
+3. To attach a SSD block storage to the VM
+4. SSH into the VM and pull latest controller setup script
+5. Mount the block storage to /var/lib/carbon
+6. Start rngd daemon
+7. Conduct the setup script
+8. Batch create 100 controller accounts
+9. Point the domain to VM’s IP
+10. Spin up required amount of ssnode VMs
+11. Claim a node for validation 
+12. Export a spreadsheet for printing stickers
+
+After the workshop 
+
+* Terminate all VMs after X days
