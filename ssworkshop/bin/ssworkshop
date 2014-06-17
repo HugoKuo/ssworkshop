@@ -1,0 +1,11 @@
+#! /usr/bin/python
+
+import os
+import sys
+sys.path.append('/Users/hugo/Documents/SwiftStack/hugokuo/ssworkshop/ssworkshop/')
+
+import common.ssworkshop
+
+
+if __name__ == '__main__':
+    exit(ssworkshop.run())
