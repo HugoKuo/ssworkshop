@@ -8,4 +8,4 @@ import common.ssworkshop
 
 
 if __name__ == '__main__':
-    exit(ssworkshop.run())
+    exit(common.ssworkshop.run())
